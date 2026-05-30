@@ -41,10 +41,11 @@ streamlit run tracking_app.py
 | `tracking_app.py` | Streamlit dashboard (scan, hotlist, map) |
 | `plate_scanner.py` | EasyOCR-based plate reading pipeline |
 | `hotlist_db.py` | SQLite database management |
-| `generate_plates.py` | Creates synthetic Pakistani-style plate images |
+| `generate_plates.py` | Synthetic Pakistani-style plate image generator |
 | `paper.tex` | LaTeX research paper |
-| `samples/` | 200 generated plate images (20 hotlisted) |
 | `requirements.txt` | Python dependencies |
+| `.gitignore` | Git ignore rules |
+| `samples/` | 200 generated plate images (20 hotlisted) |
 
 ## Tech Stack
 
