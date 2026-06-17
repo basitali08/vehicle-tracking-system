@@ -1,8 +1,43 @@
-# Vehicle Tracking & Hotlist Alert System
+<div align="center">
+  <h1>🚗 Vehicle Tracking & Hotlist Alert System</h1>
+  <p><b>License Plate Recognition (ANPR) with Real-Time Hotlist Alerts & Interactive Mapping</b></p>
+</div>
 
-A license plate recognition (ANPR) system that detects vehicle plates from images, checks them against a hotlist database, and plots detection locations on an interactive map. Built for urban surveillance and security applications.
+<br>
 
-## Features
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/EasyOCR-1.7+-FF6F00?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Folium-0.14+-228B22?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/SQLite-3+-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</div>
+
+<br>
+
+<div align="center">
+  <i>A license plate recognition (ANPR) system that detects vehicle plates from images, checks them against a hotlist database, and plots detection locations on an interactive map.</i>
+</div>
+
+<br>
+
+---
+
+## 📋 Table of Contents
+
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Tech Stack](#tech-stack)
+- [Dataset](#dataset)
+- [Paper](#paper)
+- [Author](#author)
+
+---
+
+## ✨ Features
 
 - License plate detection using EasyOCR (deep learning-based OCR)
 - Real-time hotlist matching with visual alerts
@@ -60,10 +95,13 @@ streamlit run tracking_app.py
 
 200 synthetic Pakistani-style license plates following the format: `[2-3 letters]-[3-4 digits]` (e.g., `LEG-456`, `ISB-1234`). 20 plates (10%) are randomly assigned to the hotlist for demo purposes.
 
-## Paper
+## 📄 Paper
 
 A LaTeX research paper is included at `paper.tex`. Compile with pdflatex or upload to Overleaf.
 
-## Author
+---
 
-**Basit Ali** — Abdul Wali Khan University Mardan, Pakistan
+<p align="center">
+<b>Built by Basit Ali</b> · <a href="https://github.com/basitali08">GitHub</a> · <a href="mailto:whoisbasit@gmail.com">Email</a><br>
+<sub>Computer Vision & Surveillance · MS Data Science Portfolio</sub>
+</p>
